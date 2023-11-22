@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cucumber Feature Report</title>
+    <style type="text/css">
+     body {
+    font: 14px Consolas, Courier, monospace;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.failed {
+    color: darkred;
+    font-weight: bold;
+}
+
+.step-error-message {
+    color: darkred;
+    margin: 0 0 0 10px;
+}
+
+.passed {
+    color: green;
+}
+
+.skipped {
+    color: #999;
+}
+
+.step {
+    margin: 4px 0;
+}
+
+.step .text {
+    border-radius: 3px;
+    display: block;
+}
+
+.step .screenshot {
+    border: solid 1px #CCC;
+    height: 100%;
+    width: 100%;
+}
+
+.step-screenshot-wrap {
+    margin-left: 10px;
+}
+
+.container {
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    margin: 10px;
+}
+
+#danger {
+    background-color: #f66666;
+}
+    </style>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    
+<div class="feature container">
+  <h3 class="title"><span class="highlight">Feature: </span>Searching for apps with duckduckgo</h3>
+   <p>  As an internet user<br />  In order to find out more about certain user apps<br />  I want to be able to search for information about the required apps</p>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>User inputs mango and searches for data</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text failed">
+            
+            <span class="keyword highlight">Given </span> The user arrives on the duckduckgo search page</span>
+             
+             
+             
+                   <pre class="step-error-message" id="danger">ReferenceError: browser is not defined
+    at Object.loadPage (/Users/larryg/Projects/klassi-example-test-suite/node_modules/klassi-js/runtime/helpers.js:35:5)
+    at World.(anonymous) (/Users/larryg/Projects/klassi-example-test-suite/step_definitions/search-steps.js:2:17)</pre>
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> they input mango</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> they should see some results mango</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>User inputs traffic and searches for data</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text failed">
+            
+            <span class="keyword highlight">Given </span> The user arrives on the duckduckgo search page</span>
+             
+             
+             
+                   <pre class="step-error-message" id="danger">ReferenceError: browser is not defined
+    at Object.loadPage (/Users/larryg/Projects/klassi-example-test-suite/node_modules/klassi-js/runtime/helpers.js:35:5)
+    at World.(anonymous) (/Users/larryg/Projects/klassi-example-test-suite/step_definitions/search-steps.js:2:17)</pre>
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> they input traffic</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> they should see some results traffic</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>User inputs mango and searches for data</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">Before</span> </span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">Given </span> The user arrives on the duckduckgo search page</span>
+             
+                   <div class="error">
+                     <br>
+                     loaded url: https://duckduckgo.com/
+                   </div>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">When </span> they input mango</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">Then </span> they should see some results mango</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">After</span> </span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>User inputs traffic and searches for data</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">Before</span> </span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">Given </span> The user arrives on the duckduckgo search page</span>
+             
+                   <div class="error">
+                     <br>
+                     loaded url: https://duckduckgo.com/
+                   </div>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">When </span> they input traffic</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">Then </span> they should see some results traffic</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text passed">
+            
+            <span class="keyword highlight">After</span> </span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+</div>
+ 
+
+    <script>
+        function toggleScreenshot(e) {
+  if (this.innerText === 'Screenshot -') {
+    this.innerText = 'Screenshot +';
+    this.nextElementSibling.style.display = 'none';
+  } else {
+    this.innerText = 'Screenshot -';
+    this.nextElementSibling.style.display = 'block';
+  }
+}
+
+let toggleEls = document.querySelectorAll('a.toggle');
+
+for (let i = 0; i < toggleEls.length; i++) {
+  toggleEls[i].addEventListener('click', toggleScreenshot);
+}
+
+    </script>
+  </body>
+</html>

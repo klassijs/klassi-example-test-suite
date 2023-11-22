@@ -9,13 +9,10 @@
     "linkedin": "https://linkedin.com/in/larryg",
     "youtube": "https://youtube.com/@larryg_01"
   },
-
   "scripts": {
     "pkgcheck": "yarn install --check-files",
-    "dev": "node ./node_modules/klassi-js/index.js --disableReport --tags"
-
+    "dev": "node ./node_modules/klassi-js/index.js --tags"
   },
-
   "dependencies": {
     "klassi-js": "klassijs/klassi-js"
   }
