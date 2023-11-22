@@ -2,11 +2,11 @@
 <p align="center">
     <h1 align="center" font-size: 2.5em > klassi-js <br>
     <a href="https://github.com/klassijs/klassi-js/">
-        <img alt="Klassi-Js" src="https://github.com/klassijs/klassi-js/raw/master/runtime/img/klassiLogo.png">
+        <img alt="Klassi-Js" src="https://github.com/klassijs/klassi-js/raw/main/runtime/img/klassiLogo.png">
     </a> </h1> </p>
 
 <p align="center">
-    <a href="https://github.com/klassijs/klassi-js/blob/master/LICENSE">
+    <a href="https://github.com/klassijs/klassi-js/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/github/license/klassijs/klassi-js">
     </a>
     <a href="https://webdriver.io/">
