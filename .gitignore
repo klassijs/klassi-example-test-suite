@@ -17,6 +17,7 @@ yarn-error.log*
 
 # Dependency directories
 node_modules/
+reports
 
 # Output of 'npm pack'
 *.tgz
