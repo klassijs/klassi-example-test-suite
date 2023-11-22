@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules
+log
+
+# IntelliJ project files
+.idea
+out
+gen
+.DS_Store
+
+# vscode files
+.vscode
+
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.*

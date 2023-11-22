@@ -1,0 +1,22 @@
+{
+  "name": "klassi-example-test-suite",
+  "version": "5.2.0",
+  "license": "MIT",
+  "browser": "index.js",
+  "description": "A debuggable Javascript testing framework using webdriverio",
+  "creator": {
+    "name": "Larry Goddard",
+    "linkedin": "https://linkedin.com/in/larryg",
+    "youtube": "https://youtube.com/@larryg_01"
+  },
+
+  "scripts": {
+    "pkgcheck": "yarn install --check-files",
+    "dev": "node ./node_modules/klassi-js/index.js --disableReport --tags"
+
+  },
+
+  "dependencies": {
+    "klassi-js": "klassijs/klassi-js"
+  }
+}
