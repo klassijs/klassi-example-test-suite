@@ -11,7 +11,7 @@
   },
   "scripts": {
     "pkgcheck": "yarn install --check-files",
-    "dev": "node ./node_modules/klassi-js/index.js --tags"
+    "dev": "node ./node_modules/klassi-js/index.js  --disableReport --tags"
   },
   "dependencies": {
     "klassi-js": "klassijs/klassi-js"
