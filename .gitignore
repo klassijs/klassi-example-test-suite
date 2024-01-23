@@ -2,6 +2,10 @@
 node_modules
 log
 
+# Framework Files
+artifacts
+
+
 # IntelliJ project files
 .idea
 out

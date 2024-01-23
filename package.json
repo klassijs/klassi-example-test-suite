@@ -14,6 +14,7 @@
     "dev": "node ./node_modules/klassi-js/index.js  --disableReport --tags"
   },
   "dependencies": {
-    "klassi-js": "klassijs/klassi-js"
+    "klassi-js": "klassijs/klassi-js",
+    "klassijs-visualValidation": "klassijs/klassijs-visualValidation"
   }
 }
