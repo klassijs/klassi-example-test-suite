@@ -1,4 +1,4 @@
-const {compareImage, takeImage, hideElements, showElements} = require('klassijs-visualValidation');
+const {compareImage, takeImage} = require('klassijs-visualValidation');
 
 let image;
 let elem;
@@ -15,11 +15,10 @@ module.exports = {
     await takeImage(`${image}_1-0.png`);
     await compareImage(`${image}_1-0.png`);
     await elem.addValue(searchWord);
-    // if (sharedObjects.searchData.elem.leftBadge.isExisting()) {
-    //   await helpers.takeImage(`${image}_1-1.png`, sharedObjects.searchData.elem.leftBadge);
-    // } else {
-    //   //do nothing
-    // }
+    elem = sharedObjects.searchData.elem.leftBadge;
+
+    await takeImage(`${image}_1-1.png`, null, sharedObjects.searchData.elem.leftBadge);
+    await compareImage(`${image}_1-1.png`);
     const title = await browser.getTitle();
     console.log(`checking what title being returned:- ${title}`);
     await browser.keys('\uE007');

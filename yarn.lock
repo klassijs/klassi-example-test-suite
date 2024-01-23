@@ -1556,7 +1556,7 @@ klassijs-cucumber-html-reporter@^6.0.0:
 
 klassijs-visualValidation@klassijs/klassijs-visualValidation:
   version "1.0.0"
-  resolved "git+ssh://git@github.com/klassijs/klassijs-visualValidation.git#c8ec01238293ae100fdec5765b892cfc76f0f2c3"
+  resolved "git+ssh://git@github.com/klassijs/klassijs-visualValidation.git#059d0b796322fec509fe37a5fe053db0fc43e1a1"
   dependencies:
     commander "^10.0.0"
     fs-extra "^11.1.0"
